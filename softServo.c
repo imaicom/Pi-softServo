@@ -9,13 +9,13 @@ int main () {
 	wiringPiSetup();
 	softServoSetup (0, -1 , -1 , -1 , -1 , -1 , -1 , -1) ;
 	softServoWrite (0,  0) ;
-  sleep(1);
+	sleep(1);
 	softServoWrite (0,  500) ;
-  sleep(1);
+	sleep(1);
 	softServoWrite (0,  100) ;
-  sleep(1);
+	sleep(1);
 	softServoWrite (0,  500) ;
-  sleep(1);
+	sleep(1);
 
 /*
 	softServoWrite (1, 1000) ;
