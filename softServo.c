@@ -1,7 +1,9 @@
+// cc -o softServo softServo.c  -lwiringPi -lm
+
 #include <stdio.h>
 #include <unistd.h>
 #include <wiringPi.h>
-#include <softServo.h>
+#include "softServo.h"
 
 int main () {
 	
