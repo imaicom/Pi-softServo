@@ -1,3 +1,3 @@
 # softServo
 
-Because the servo is too unstable, it is better not to use it.
+it is better not to use it, because the servo is too unstable.
